@@ -14,7 +14,7 @@ on:
     types: [started]
 
 env:
-  RUN_VALIDATION: false
+  RUN_VALIDATION: true
 
 jobs:
   build:

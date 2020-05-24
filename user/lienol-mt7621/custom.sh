@@ -18,7 +18,7 @@ svn checkout https://github.com/coolsnowwolf/lede/trunk/package/lean/tcpping    
 svn checkout https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks  package/microsocks
 
 rm -rf package/lean/mt
-svn checkout https://github.com/project-openwrt/openwrt/trunk/package/lean/luci-app-mtwifi
-svn checkout https://github.com/project-openwrt/openwrt/trunk/package/lean/mt-drivers
+svn checkout https://github.com/project-openwrt/openwrt/trunk/package/lean/luci-app-mtwifi package/luci-app-mtwifi
+svn checkout https://github.com/project-openwrt/openwrt/trunk/package/lean/mt-drivers package/mtwifi
 
 

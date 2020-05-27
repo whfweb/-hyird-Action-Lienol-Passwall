@@ -25,7 +25,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [lienol-mvebu,lienol-cortexa9,lienol-DEVICE_linksys_wrt1900acv2] 
+        target: [lienol-x64] 
     
     steps:
     - name: Checkout
